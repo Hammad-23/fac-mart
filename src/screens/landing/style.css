@@ -1,0 +1,83 @@
+.navMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.blogs {
+  background-image: url("../../assets//blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-image: url("../../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.logo {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  width: 180px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+#text {
+  font-size: 50px;
+  font-family: inherit;
+}
+
+.box {
+  border-top: 1px solid black;
+  width: 300px;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+.centText {
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.btncent {
+  border: 1px solid white;
+  width: 120px;
+  height: 40px;
+  background: none;
+  color: "white";
+}
+.cards{
+  cursor: pointer;
+}
+

@@ -1,0 +1,20 @@
+.navMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+  .menu{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .headerLabel {
+      display: none;
+    }
+    .menu{
+      display: inline;
+    }
+  }
+  
+  

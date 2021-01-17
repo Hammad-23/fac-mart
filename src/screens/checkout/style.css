@@ -1,0 +1,20 @@
+.checkbg{
+    background-image: url('../../assets/checkbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    border-top: 1px solid black;
+    width: 400px;
+}
+
+.one-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

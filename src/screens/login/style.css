@@ -1,0 +1,26 @@
+.bg{
+    background-image: url('../../assets/bg2.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCard{
+    background-image: url('../../assets/loginbg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    
+}
